@@ -1,0 +1,8 @@
+name: Main File
+on: push
+jobs:
+ first:
+  runs-on: window
+  steps:
+  - name: print
+    run: echo Hello
